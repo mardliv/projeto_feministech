@@ -1,0 +1,111 @@
+@media only screen and (max-device-width: 1000px){
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  gap: 2rem;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  height: 100%;
+}
+
+.playlist{
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+ @font-face {
+   font-family: OneDirection;
+   src: url("OneDirection.ttf");
+ }
+
+p{
+font-family:monospace;
+font-size: 1rem;
+text-align: center;
+}
+
+h1 {
+  font-family: OneDirection;
+  font-size: 5rem;
+  margin-bottom: 0.8rem;
+  text-align: center;
+}
+
+ 
+h5{
+  font-family: OneDirection;
+  font-size: 2rem;
+  margin-bottom: 0.8rem;
+ }
+
+ h6{
+   font-family: monospace;
+  font-size: 0.8rem;
+  margin-bottom: 0.8rem;
+ }
+
+img {
+  height: 300px;
+  width: 400px;
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+.botao a{
+  background-color: black;
+  display: block;
+  color: white ;
+  text-align: center;
+  margin: 2rem 0rem 2rem 0rem;
+  padding: 1rem 10rem;
+  border-radius: 0.700rem;
+  text-decoration: none;
+  list-style: none;
+  font-family: monospace;
+}
+
+.botao a:hover {
+  display: block;
+  background-color: #CD1818;
+  animation: mouseHover 0.9s ease; 
+  text-decoration: none;
+}
+
+.botao {
+  font-size: 1.2rem;
+}
+
+.redes {
+  margin: 1rem;
+  font-size: 1.5rem;
+  display: flex;
+}
+
+.redes li a {
+  margin: 0rem 0.5rem;
+  padding: 0.5rem;
+  color: black;
+  list-style-type: none;
+
+}
+
+.redes li a:hover {
+  color: #CD1818;
+  animation: mouseHover 0.5s ease;
+}
